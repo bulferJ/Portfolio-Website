@@ -3,7 +3,7 @@ This will be a vanilla JS website with no framework used. I plan to become profi
 
 Here are some screenshots of the website, I plan to create another page with either a tic tac toe or checkers game written in JS.
 
-The features it currently has is a dropdown menu, flexible grid navbar, a Javascript written function which changes the backround color, and another page which generates (really grabs from anm array) random psuedo text/lorem Ipsum.
+The features it currently has is a dropdown menu, flexible grid navbar, a Javascript written function which changes the backround color, and another page which generates (really grabs from an array) random psuedo text/lorem Ipsum.
 
 ![image](https://user-images.githubusercontent.com/117784062/224340614-09b287a9-ffb4-49b9-9581-d467e5661d5f.png)
 
