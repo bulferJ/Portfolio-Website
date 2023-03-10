@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+    <link rel="stylesheet" href="colors.css">
+</head>
+<body>
+
+
+
+    <div class="navbar">
+        
+        <a  class="hero" href="index.html"><span style = "color:tomato"><b>Home</b></span></a>
+
+        <a class="about-me" href="about-me.html">About Me</a>
+
+        <div class="projects">
+            <br>
+            <div class="dropbtn">Mini-Projects
+                <div class="dropdown-content">
+                    <a href="color.html">Color Switcher</a>
+                    <a href="dummy-text.html">Lorem Ipsim</a>
+                    <a href="">Coming Soon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="text-content">
+            <h2>Your color is:<span class="color"></span></h2>
+        </div>
+        <div class="btn-content">
+            <button id="btn">Click Me</button>
+        </div>
+    </div>
+
+
+    <script>
+        const colors = ["red", "blue","green","pink","yellow","orange"];
+
+
+        const btn = document.getElementById("btn");
+        const color = document.querySelector(".color");
+        const body = document.querySelector("body");
+
+        btn.addEventListener("click", function(){
+            randomColor = colors[Math.floor(Math.random()*colors.length)]
+            color.textContent = randomColor;
+            body.style.backgroundColor = randomColor;
+        })
+    </script>
+</body>
+</html>
